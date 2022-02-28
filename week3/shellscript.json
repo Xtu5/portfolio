@@ -1,0 +1,55 @@
+{
+	// Place your snippets for shellscript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Add Shebang": {
+		"scope": "sh",
+		"prefix": "shebang",
+		"body": [
+			"#!/bin/bash",
+		],
+		"description": "Adds Shebang Script Head"
+	}
+
+	"Add Colours": {
+		"prefix": "Colour",
+		"body": [
+			"Black='\\033[30m'",
+			"Red='\\033[31m'",
+			"Green='\\033[32m'",
+			"Brown='\\033[33m'",
+			"Blue='\\033[34m'",
+			"Purple='\\033[35m'",
+			"Cyan='\\033[36m'",
+			"Gray='\\033[37m'",
+			"NC='\\033[0m'"
+		],
+		"description": "adds in colours"
+	}
+
+	"Script Details": {
+		"prefix": "Script Details"
+		"body": [
+			"#Author: Tyler Vivian",
+			"#Creation Date: ",
+			"#Last Modified: ",
+			"#Description: ",
+		],
+		"description": "Puts in the stuff at the top of the script"
+	}
+
+
+}
+ //REFERENCE
+ //Code provided by ECU for Shebang
